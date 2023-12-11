@@ -1,0 +1,43 @@
+body {
+  min-height: 100vh;
+}
+.cards {
+  display: flex;
+  width: 1400px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.favorites-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  min-height: 76px;
+  border-bottom: 1px solid #0a1e32;
+}
+
+.product-wrapper {
+  max-width: 1400px;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@import url("./minireset.css");

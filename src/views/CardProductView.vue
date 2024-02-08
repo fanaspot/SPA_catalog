@@ -62,6 +62,15 @@ export default {
   border: 1px solid #e5e5e5;
 }
 
+@media (max-width: 1024px) {
+  .product-full-info {
+    flex-wrap: wrap;
+  }
+  .product-image img {
+    max-width: 100%;
+  }
+}
+
 .product-info {
   display: flex;
   flex-direction: column;

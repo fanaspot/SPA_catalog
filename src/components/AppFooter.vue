@@ -3,9 +3,9 @@
     <nav class="navbar">
       <div class="wrapper">
         <router-link to="/favorites" class="favorites-link">
-          <p class="favorites-block">Избранное</p>
+          Избранное
         </router-link>
-        <p class="tel">8 800 3467 7324</p>
+        <a href="tel:880034677324" class="tel">8 800 3467 7324</a>
       </div>
     </nav>
   </footer>
@@ -44,5 +44,6 @@ export default {
   align-items: center;
   color: white;
   font-size: 24px;
+  text-decoration: none;
 }
 </style>

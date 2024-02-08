@@ -47,7 +47,6 @@ export default {
 }
 .favorites-empty {
   display: flex;
-  width: 1400px;
   flex-wrap: wrap;
   justify-content: center;
   margin: 100px 0 100px 0;

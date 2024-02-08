@@ -3,14 +3,16 @@ body {
 }
 .cards {
   display: flex;
-  width: 1400px;
+  width: 100%;
   flex-wrap: wrap;
   gap: 30px;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+  max-width: 1400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .favorites-block {
@@ -28,8 +30,8 @@ body {
 }
 
 .product-wrapper {
-  max-width: 1400px;
-  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .wrapper {
